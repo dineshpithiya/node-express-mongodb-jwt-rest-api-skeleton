@@ -144,7 +144,9 @@ npm run command
 ```bash
 npm run dev
 ```
-
+IF you get error like NODE_ENV not found and your hosting server is windows then you must need to run below command to set environment
+```npm install -g win-node-env
+```
 You will know server is running by checking the output of the command `npm run dev`
 
 ```bash
